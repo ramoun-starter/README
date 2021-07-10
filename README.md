@@ -27,6 +27,9 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- [**npm**](https://nodejs.org) (**n**ode **p**ackage **m**anager) - to be able to install packages locally.
+- **A github Account** - to be able to use github actions.
+
 ### Setup
 
 ### Install
