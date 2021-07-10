@@ -55,6 +55,11 @@ To get a local copy up and running follow these simple example steps.
 
 ### Run tests
 
+- run **Webhint** linter
+  - **Run** `npx hint .` on the root of your directory of your project.
+- run **Stylelint** linter
+  - **Run** `npx stylelint "**/*.{css,scss}"` on the root of your directory of your project.
+
 ### Deployment
 
 ## Authors
