@@ -1,10 +1,11 @@
-![](https://img.shields.io/static/v1?label=BY&message=RAMOUN&color=birghtgreen)
+[![](https://img.shields.io/static/v1?label=BY&message=RAMOUN&color=birghtgreen)](https://mrramoun.github.io)
 
 # Project Name
 
 > One paragraph statement about the project.
 
 ![screenshot](images/app_screenshot.png)
+
 | *Additional description about the project and its features.*
 
 ## Built With
@@ -26,13 +27,38 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- [**npm**](https://nodejs.org) (**n**ode **p**ackage **m**anager) - to be able to install packages locally.
+- **A github Account** - to be able to use github actions.
+
 ### Setup
 
+- **Open** the terminal.
+- **Run** `cd \path\to\where\you\want\your\local\copy`
+- **Clone** the repo
+  1. **Run** `git clone git@github.com:MrRamoun/README.git`
+  2. **Run** `cd README/`
+
 ### Install
+
+- install **Webhint** linter
+
+  1. **Run** `npm install --save-dev hint@6.x`
+  2. **Copy** [.hintrc](https://github.com/microverseinc/linters-config/blob/master/html-css/.hintrc) file to the root directory of your project.
+
+- install **Stylelint** linter
+
+  1. **Run** `npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x`
+  2. **Copy** [.stylelintrc.json](https://github.com/microverseinc/linters-config/blob/master/html-css/.stylelintrc.json) to the root directory of your project.
+
 
 ### Usage
 
 ### Run tests
+
+- run **Webhint** linter
+  - **Run** `npx hint .` on the root of your directory of your project.
+- run **Stylelint** linter
+  - **Run** `npx stylelint "**/*.{css,scss}"` on the root of your directory of your project.
 
 ### Deployment
 
@@ -40,9 +66,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@mrramoun](https://github.com/mrramoun)
-- Twitter: [@ramoun16](https://twitter.com/ramoun16)
-- LinkedIn: [@ramoun](https://www.linkedin.com/in/ramoun/)
+- **GitHub**: [![@mrramoun](https://img.shields.io/github/followers/MrRamoun?label=Ramoun&style=social)](https://github.com/mrramoun)
+- **Twitter**: [![@ramoun16](https://img.shields.io/twitter/follow/ramoun16?label=ramoun16&style=social)](https://twitter.com/ramoun16)
+- **LinkdIn**: [![@ramoun](https://img.shields.io/github/followers/ramon?label=ramoun&logo=linkedin&style=social)](https://www.linkedin.com/in/ramoun/)
 
 👤 **Author2**
 
